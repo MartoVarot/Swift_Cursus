@@ -33,6 +33,7 @@ class ViewController: UIViewController {
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
         // code will evaluate when the Send Mail button is pushed
+        // added challenge code
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextfield.text
         messageLabel.textColor = UIColor.redColor()
