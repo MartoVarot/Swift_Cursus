@@ -31,6 +31,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func sendMailButtonPressed(sender: UIButton) {
+        // code will evaluate when the Send Mail button is pushed
         messageLabel.hidden = false
         messageLabel.text = enterMessageTextfield.text
         messageLabel.textColor = UIColor.redColor()
